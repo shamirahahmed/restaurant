@@ -1,0 +1,62 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    background-image: -moz-element(max-width);
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #c11818;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2a2222;
+}
+
+/* Style the about us section */
+.about-us {
+    padding: 20px;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ea0000;
+}
+.about-us h1{
+    color: whitesmoke;
+}
+
+.about-us img {
+    background-color: aqua;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #ea0000;
+    text-align: center;
+    padding: 10px;
+}

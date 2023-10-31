@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-item {
+    background-color: #151414;
+    margin: 20px;
+    padding-left: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.menu-item img {
+    max-width: 60%;
+}
+
+.menu-item h2 {
+    font-size: 24px;
+}
+
+.menu-item p {
+    color: #777;
+}
+
+.price {
+    display: block;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.slide-container{
+    position: relative;
+    max-width: 100;
+    height: auto;
+    overflow: hidden;
+}
